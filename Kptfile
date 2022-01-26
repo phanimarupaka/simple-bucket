@@ -25,4 +25,5 @@ pipeline:
     - image: gcr.io/kpt-fn/apply-setters:v0.1
       configMap:
         project-id: YOUR_PROJECT_ID
-        name: YOUR_NAME 
+        name: YOUR_NAME
+        storage-class: standard 
